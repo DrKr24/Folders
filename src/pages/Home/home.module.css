@@ -1,0 +1,21 @@
+.homeContainericons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-content: start;
+  row-gap: 20px;
+  padding-top: 50px;
+  max-width: 1800px;
+  margin-inline: auto;
+  height: 90vh;
+}
+
+.homeContainerlist {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-top: 50px;
+  max-width: 1800px;
+  margin-inline: auto;
+  height: 90vh;
+}

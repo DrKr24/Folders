@@ -1,0 +1,106 @@
+.folderContainer {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  height: 320px;
+  padding: 20px 100px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  border: 1px solid transparent;
+  transition-duration: 0.1s;
+  word-wrap: break-word;
+}
+
+.folderAlterContainer {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  height: 50px;
+  padding: 20px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  border: 1px solid transparent;
+  transition-duration: 0.1s;
+}
+
+.folderContainer:hover {
+  background-color: rgba(223, 224, 226, 0.5);
+  border: 1px solid rgba(212, 214, 219, 0.5);
+}
+
+.folderAlterContainer:hover {
+  background-color: rgba(223, 224, 226, 0.5);
+  border: 1px solid rgba(212, 214, 219, 0.5);
+}
+
+.folderImage {
+  width: 180px;
+}
+
+.folderAlterImage {
+  width: 45px;
+}
+
+.folderName {
+  position: relative;
+  z-index: 2;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  border: 1px solid transparent;
+  width: 20ch;
+  overflow: hidden;
+  height: 60px;
+}
+
+.folderAlterName {
+  position: relative;
+  z-index: 2;
+  display: block;
+  text-align: left;
+  padding: 6px 3px;
+  font-size: 20px;
+  border: 1px solid transparent;
+  height: 20px;
+  overflow: hidden;
+  width: 200px;
+}
+
+.folderName:focus {
+  border: 1px solid rgb(189, 190, 193);
+  background-color: rgb(219, 245, 255);
+  outline: none;
+}
+
+.folderAlterName:focus {
+  border: 1px solid rgb(189, 190, 193);
+  background-color: rgb(219, 245, 255);
+  outline: none;
+}
+
+.folderAlterDate {
+  margin-left: 30px;
+  display: block;
+  text-align: center;
+  padding: 6px 3px;
+  font-size: 20px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  color: rgb(137, 137, 137);
+}
+
+.folderAlterType {
+  margin-left: 30px;
+  display: block;
+  text-align: center;
+  padding: 6px 3px;
+  font-size: 20px;
+  border: 1px solid transparent;
+  overflow: hidden;
+  color: rgb(101, 101, 101);
+}

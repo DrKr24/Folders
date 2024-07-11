@@ -1,0 +1,10 @@
+.cancelContainer {
+  display: flex;
+  align-items: center;
+}
+
+.cancel {
+  position: relative;
+  top: 1px;
+  width: 14px;
+}

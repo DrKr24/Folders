@@ -1,0 +1,10 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+  top: 1px;
+  width: 15px;
+}
