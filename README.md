@@ -1,8 +1,40 @@
-# React + Vite
+# Веб-додаток
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_Проект є додатком, що емулює створення папок на кшталт Windows провідник._
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Функціонал
+
+  1. Створення, Відалення, Редагування папок
+  2. Реалізація контекстового меню
+  3. Пошук
+  4. Переходи по внутрішньому полю відображеня іерархії
+
+
+## Технології
+
+  1. ReactJS
+  2. CSS
+  3. JSX
+  4. React-Router-Dom
+  5. React Hooks
+  6. Radix-UI
+
+
+## Структура
+  - src        | всі файли, що стосується додатку.
+  - components | всі компоненти з функціоналом
+  - pages      | сторінки додатку
+  - storage    | файли для роботи за localstorage
+  - utils      | функції для перевикористання
+  - context    | контекстові компоненти
+
+
+## Гілки
+
+  1. main     | основні файли проекту
+
+     
+## Відображеня 
+
+  🖥️ 💻
